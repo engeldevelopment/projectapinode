@@ -1,5 +1,5 @@
 import Router from 'express'
-import ProjectsAPIController from './controllers/projects'
+import ProjectsAPIController from './controllers/projects.controller'
 
 
 const router = Router()
