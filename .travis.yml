@@ -10,5 +10,4 @@ install:
   - yarn
 
 script:
-  - cp .env.testing .env
   - yarn test:cov
