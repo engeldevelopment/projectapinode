@@ -1,0 +1,14 @@
+dist: xenial
+language: node_js
+node_js:
+  - 14
+
+before_install:
+  - npm i yarn
+
+install:
+  - yarn
+
+script:
+  - cp .env.testing .env
+  - yarn test:cov
