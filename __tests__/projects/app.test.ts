@@ -2,9 +2,9 @@ import mongoose from 'mongoose'
 
 import request  from 'supertest'
 
-import app from '../src/app'
+import app from '../../src/app'
 
-import ProjectModel from '../src/projects/models/project.model'
+import ProjectModel from '../../src/projects/models/project.model'
 
 
 mongoose.connect('mongodb://localhost/testProjects', {
