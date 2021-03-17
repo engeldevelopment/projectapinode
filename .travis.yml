@@ -3,6 +3,10 @@ language: node_js
 node_js:
   - 14
 
+addons:
+  artifacts:
+    working_dir: coverage
+
 before_install:
   - npm i yarn
 
