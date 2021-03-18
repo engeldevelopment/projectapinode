@@ -3,9 +3,8 @@ language: node_js
 node_js:
   - 14
 
-addons:
-  artifacts:
-    working_dir: coverage
+services:
+  - mongodb
 
 before_install:
   - npm i yarn
